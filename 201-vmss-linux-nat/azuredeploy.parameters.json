@@ -9,7 +9,7 @@
       "value": "15.10"
     },
     "vmssName": {
-      "value": "GEN-UNIQUE-32"
+      "value": "mcvmss0001"
     },
     "instanceCount": {
       "value": 5
@@ -18,7 +18,7 @@
       "value": "ubuntu"
     },
     "adminPassword": {
-      "value": "GEN-PASSWORD"
+      "value": "Quattro!Quattro!"
     }
   }
 }
