@@ -3,7 +3,7 @@
   "contentVersion": "1.0.0.0",
   "parameters": {
     "clusterName": {
-      "value": "GEN-UNIQUE"
+      "value": "mcsfabriccluster"
     },
     "fabricTcpGatewayPort": {
       "value": 19000
@@ -12,10 +12,10 @@
       "value": 19080
     },
     "adminUserName": {
-      "value": ""
+      "value": "mikech"
     },
     "adminPassword": {
-      "value": ""
+      "value": "Quattro!"
     },
     "loadBalancedAppPort1": {
       "value": 80
