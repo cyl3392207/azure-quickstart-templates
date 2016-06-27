@@ -423,7 +423,7 @@
             },
             "osDisk": {
               "vhdContainers": [
-                "[concat('http://',variables('vmStorageAccountName'),'.blob.core.windows.net/',variables('vmStorageAccountContainerName'))]"
+                "[concat('http://',variables('vmStorageAccountName'),'blob.core.chinacloudapi.cn/',variables('vmStorageAccountContainerName'))]"
               ],
               "name": "vmssosdisk",
               "caching": "ReadOnly",
@@ -455,11 +455,11 @@
         "clientCertificateThumbprints": [ ],
         "clusterState": "Default",
         "diagnosticsStorageAccountConfig": {
-          "blobEndpoint": "[concat('https://',variables('supportLogStorageAccountName'),'.blob.core.windows.net/')]",
+          "blobEndpoint": "[concat('https://',variables('supportLogStorageAccountName'),'.blob.core.chinacloudapi.cn/')]",
           "protectedAccountKeyName": "StorageAccountKey1",
-          "queueEndpoint": "[concat('https://',variables('supportLogStorageAccountName'),'.queue.core.windows.net/')]",
+          "queueEndpoint": "[concat('https://',variables('supportLogStorageAccountName'),'.queue.core.chinacloudapi.cn/')]",
           "storageAccountName": "[variables('supportLogStorageAccountName')]",
-          "tableEndpoint": "[concat('https://',variables('supportLogStorageAccountName'),'.table.core.windows.net/')]"
+          "tableEndpoint": "[concat('https://',variables('supportLogStorageAccountName'),'.table.core.chinacloudapi.cn/')]"
         },
         "fabricSettings": [ ],
         "managementEndpoint": "[concat('http://',reference(concat(variables('lbIPName'),'-','0')).dnsSettings.fqdn,':',variables('nt0fabricHttpGatewayPort'))]",
