@@ -423,7 +423,7 @@
             },
             "osDisk": {
               "vhdContainers": [
-                "[concat('http://',variables('vmStorageAccountName'),'blob.core.chinacloudapi.cn/',variables('vmStorageAccountContainerName'))]"
+                "[concat('http://',variables('vmStorageAccountName'),'.blob.core.chinacloudapi.cn/',variables('vmStorageAccountContainerName'))]"
               ],
               "name": "vmssosdisk",
               "caching": "ReadOnly",
